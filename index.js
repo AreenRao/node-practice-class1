@@ -1,7 +1,4 @@
-var react = {
-    parameter: (x, y) => (2*(x+y)),
-    area: (x, y) => (x*y)
-}
+var react = require('./reactangle');
 
 function calculateParameterAndArea(x, y) {
     console.log("area is: ", react.area(x, y));
